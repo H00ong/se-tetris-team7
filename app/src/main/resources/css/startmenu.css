@@ -1,0 +1,24 @@
+/* 기본 메뉴 버튼 스타일 */
+.menu-button {
+    -fx-background-color: "white";
+    -fx-text-fill: "black";
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.5), 5, 0, 0, 2);
+}
+
+.menu-button:hover {
+    -fx-background-color: "white";
+    -fx-text-fill: "black";
+}
+
+/* 선택된 버튼 하이라이트 */
+.menu-button.highlighted {
+    -fx-border-color: #56B4E9;
+    -fx-border-width: 3;
+    -fx-border-radius: 5;
+    -fx-background-color: "white";
+    -fx-text-fill: "black";
+}
